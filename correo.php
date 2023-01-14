@@ -19,7 +19,7 @@
 */
  
 
-$destinatario = 'chrysxdzer0@gmail.com';
+$destinatario = 'chrystian22morales@hotmail.com';
 $nombre = $_POST['name'];
 $asunto = $_POST['subject'];
 $email = $_POST['email'];
