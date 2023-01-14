@@ -12,9 +12,6 @@
 		<input type="text" placeholder="Asunto" name="subject" required="">
 		<textarea placeholder="Escriba su mensaje" name="msg" required=""></textarea>
 		<input type="submit" value="Enviar" name="enviar">
-	</form>
-<?php 
-	include('correo.php');
- ?>	
+	</form>	
 </body>
 </html>
