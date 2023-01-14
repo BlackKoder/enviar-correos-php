@@ -30,7 +30,7 @@ $mensajeCompleto = $mensaje . "\nAtentamente: " . $nombre;
 
 mail($destinatario, $asunto, $mensajeCompleto, $header);
 echo "<script>alert('Correo enviado exitosamente')</script>";
-//echo "<script>setTimeout(\"location.href='index.php'\", 1000)</script>";
+echo "<script>setTimeout(\"location.href='index.php'\", 1000)</script>";
 
 
 
