@@ -1,5 +1,6 @@
 <?php 
-if (isset($_POST['enviar'])) {
+
+/*if (isset($_POST['enviar'])) {
 	if (!empty($_POST['name']) && !empty($_POST['email']) && !empty($_POST['subject']) 
 		&& !empty($_POST['msg'])) {
 		$name = $_POST['name'];
@@ -15,6 +16,23 @@ if (isset($_POST['enviar'])) {
 		}
 	}
 }
+*/
+ 
+
+$destinatario = 'chrysxdzer0@gmail.com';
+$nombre = $_POST['name'];
+$asunto = $_POST['subject'];
+$email = $_POST['email'];
+$mensaje = $_POST['msg'];
+
+$header = "Enviado desde el correo";
+$mensajeCompleto = $mensaje . "\nAtentamente: " . $nombre;
+
+mail($destinatario, $asunto, $mensajeCompleto, $header);
+echo "<script>alert('Correo enviado exitosamente')</script>";
+//echo "<script>setTimeout(\"location.href='index.php'\", 1000)</script>";
+
+
 
 
  ?>
