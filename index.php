@@ -7,10 +7,10 @@
 </head>
 <body>
 	<form action="correo.php" method="POST">
-		<input type="text" placeholder="Ingresar nombre" name="name" required="">
-		<input type="email" placeholder="Ingresar email" name="email" required="">
-		<input type="text" placeholder="Asunto" name="subject" required="">
-		<textarea placeholder="Escriba su mensaje" name="msg" required=""></textarea>
+		<input type="text" placeholder="Ingresar nombre" name="name">
+		<input type="email" placeholder="Ingresar email" name="email">
+		<input type="text" placeholder="Asunto" name="subject">
+		<textarea placeholder="Escriba su mensaje" name="msg"></textarea>
 		<input type="submit" value="Enviar" name="enviar">
 	</form>
 </body>
